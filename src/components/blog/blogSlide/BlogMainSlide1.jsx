@@ -39,7 +39,7 @@ export default function BlogMainSlide1() {
         God bless you always.
       </BlogMainComments>
 
-      <ScrollIndicator/>
+      <ScrollIndicator color='whitesmoke'/>
       
     </BlogMainSlideContainer>
   )

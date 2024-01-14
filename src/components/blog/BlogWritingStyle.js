@@ -10,8 +10,7 @@ export const BlogWritingContainer = styled.div`
 export const BlogTitleInput = styled.input`
     width:100%;
     height:40px;
-    font-size:20px;
-    
+    border:none;
 `
 export const BlogContentsInput = styled.textarea`
     width:100%;
@@ -20,24 +19,26 @@ export const BlogContentsInput = styled.textarea`
 `
 
 export const BlogWritingSection = styled.div`
-    width:45%;
+    width:100%;
     height:100%;
-    margin-left:5%;
+    .w-md-editor-text-pre > code,
+    .w-md-editor-text-input {
+        font-size: 2px !important;
+        line-height: 24px !important;
+    }
+
 `
 export const BlogWritingTestSection = styled.div`
-    width:45%;
+    width:50%;
     height:100%;
-    margin-right:5%;
     background-color:whitesmoke;
 `
 export const BlogTitleTest = styled.div`
     width:100%;
     height:40px;
-    font-size:20px;
 
 `
 export const BlogContentsTest = styled.div`
     width:100%;
     height:40px;
-    font-size:20px;
 `

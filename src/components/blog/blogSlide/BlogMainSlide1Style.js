@@ -50,7 +50,7 @@ export const BlogMainText = styled.div`
 `
 export const BlogMainComments = styled.div`
     position:absolute;
-    font-family:'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive;
     top:40%;
     font-size:20px;
     line-height:30px;

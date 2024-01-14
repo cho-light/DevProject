@@ -14,7 +14,7 @@ export const ScrollIndicatorContainer = styled.div`
 export const ScrollButton = styled.div`
     width:100%;
     height:100%;
-    border:3px solid whitesmoke;
+    border:3px solid ${(porps)=> porps.color};
     border-radius: 10px;
     display:flex;
     justify-content:center;
@@ -23,7 +23,7 @@ export const ScrollButtonAnimation = styled.div`
     width:10px;
     height:10px;
     display:inline-block;
-    border:5px solid whitesmoke;
+    border:5px solid ${(porps)=> porps.color};
     border-radius:50%;
     margin:2px;
     animation: slide 2.0s linear infinite;
@@ -90,4 +90,5 @@ export const ScrollButtonAnimation = styled.div`
 `
 export const ScrollButtonTag = styled.div`
     margin-top:5px;
+    color: ${(porps)=> porps.color};
 `

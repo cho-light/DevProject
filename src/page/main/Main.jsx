@@ -7,7 +7,7 @@ import RecordPlayer from '../../components/recordPlayer/RecordPlayer'
 export default function Main() {
   return (
     <Layout>
-        <Header/>
+        {/* <Header/> */}
         <Slider/>
         {/* <RecordPlayer/> */}
     </Layout>

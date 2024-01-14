@@ -1,5 +1,26 @@
 import { styled } from "styled-components";
 
+export const SliderContainer = styled.div`
+    position:relative;
+    height: 100%;
+    width:100%;
+    /* overflow:hidden; */
+    /* scrollbar-width:none;
+    -ms-overflow-style:none; */
+    /* overflow:auto; */
+    &::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.4);
+    }
+    &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 6px;
+    }
+    /* ${props => props.scroll ? `background-color: red;` : `background-color: #CBCAC5;` } */
+    /* background-color: #CBCAC5; */
+`
 
 export const SlideButtonGroup = styled.div`
     position:absolute;
@@ -29,19 +50,17 @@ export const SlideDownButton = styled.div`
     transform:translateY(0%);
 `
 
-export const SliderContainer = styled.div`
-    position:relative;
-    height: 100%;
-    width:100%;
-    overflow:hidden;
-    background-color: #F1F0E8;
-    /* background-color: ${(props) => (props.weather === '0' ? '#d2e9e9' : '#F8F6F4')}; */
-`
-
 export const Slider = styled.div`
-    flex-direction:column;
+
     height:100%;
     transition: 2s;
+    /* scrollbar-width:none;
+    -ms-overflow-style:none;
+    overflow-y:scroll;
+    &::-webkit-scrollbar {
+        display:none;
+    } */
+
 `
 
 

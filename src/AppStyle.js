@@ -10,12 +10,14 @@ const GlobalStyles = createGlobalStyle`
     }
     html,
     body{
+        
         height:100%;
         margin:0%;
         
     }
     #root{
         height:100%;
+        
     }
     div, span, h1, h2, h3, h4, h5, h6, p, 
     a, dl, dt, dd, ol, ul, li, form, label, table{
@@ -27,7 +29,7 @@ const GlobalStyles = createGlobalStyle`
     }
     body{
         line-height: 1;
-        font-family: 'Noto Sans KR', sans-serif;
+        font-family: "Poppins", sans-serif;
         background-color: #F6F9F0;
         margin-bottom: 100px;
     }
@@ -39,6 +41,7 @@ const GlobalStyles = createGlobalStyle`
         background: transparent;
         cursor: pointer;
     }
+    
 `;
- 
+
 export default GlobalStyles;
